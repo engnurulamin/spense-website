@@ -42,7 +42,7 @@ body{
     text-decoration: none;
     font-size: 1.5rem;
     color: black;
-    margin-left: 5px;
+    margin-left: 20px;
 }
 
 .login{
@@ -57,11 +57,86 @@ body{
     background-color: black;
     color: blanchedalmond;
     padding: 15px;
-    margin-left: 5px;
+    margin-left: 10px;
     border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
 }
 /* navbar ends here */
+/* section-one starts here */
+.section-one{
+    background-color: rgba(240, 233, 233, 0.884); 
+    width: auto;
+    height: 600px;
+}
 
+
+.heading-2{
+    font-size: 4rem;
+    margin-top: 80px;
+    margin-left: 80px;
+    text-align: left;
+}
+.para{
+    margin-left: 80px;
+    text-align: left;
+    font-size: 1.2rem;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+.list-items{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.list-items ul li{
+    list-style: url(images/Checkmark.svg);
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgba(5, 2, 2, 0.74);
+    margin-top: 10px;
+    list-style-position:inside;
+}
+.button{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#input-1{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid gray;
+    font-size: 1.1rem;
+    width: 200px;
+}
+
+#input-2{
+    margin-left: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    font-size: 1.4rem;
+}
+
+#banner{
+    height: 500px;
+    width: auto;
+}
+
+/* .banner{
+    background-image: url("images/picture1.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover ;
+    height: 300px;
+    width: auto;
+
+} */
+/* section-one ends here */
 
 
 .col-1 {width: 8.33%;}
@@ -82,6 +157,3 @@ body{
     padding: 10px;
 }
 
-/* navbar starts here */
-
-/* navbar ends here */
