@@ -23,55 +23,49 @@
         </h1>
       </div>
     </section>
-    <!-- navbar starts here -->
-    <nav class="navbar has-background-grey-lighter" role="navigation" aria-label="main navigation" >
-      <!-- <div class="navbar-menu"> -->
-        <div class="column is-4">
-          <div class="navbar-menu">
-            <div class="navbar-start">
-              <a class="navbar-item">
-                Spense.
+    <nav class="navbar has-background-grey-lighter">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+            Spense
+          </a>
+    
+          <a class="navbar-item">
+            Business
+          </a>
+    
+         
+            <a class="navbar-item">
+              Pricing
+            </a>
+            <a class="navbar-item">
+              Features
+            </a>
+          </div>
+        </div>
+    
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-light has-background-grey-lighter">
+                <strong>log in</strong>
               </a>
-              
+              <a class="button is-black">
+                Get Started
+              </a>
             </div>
           </div>
         </div>
-        <div class="column is-8">
-          <div class="navbar-menu">
-            <div class="navbar-start">
-              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a>
-              <a class="navbar-item">
-                Business
-              </a>
-              <a class="navbar-item">
-                Pricing
-              </a>
-              <a class="navbar-item">
-                Features
-              </a>
-            </div>
-            <div class="navbar-menu">
-              <div class="navbar-end">
-                <div class="navbar-item">
-                  <div class="buttons">
-                    <a class="button is-light has-background-grey-lighter">
-                      <strong>log in</strong>
-                    </a>
-                    <a class="button is-dark">
-                      Get Started
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
-      <!-- </div> -->
+      </div>
     </nav>
-    <!-- navbar ends here -->
 
     <section class="section has-background-grey-lighter">
       <div class="columns">
@@ -96,20 +90,26 @@
         </div>
       </div>
     </section>
-    <div class="section">
+    <div class="section ml-4">
       <img src="images/Facebook Logo.png" alt="fb-logo" height="40px" width="125px">
-        <img style="margin-left: 10px;" src="images/Slack Logo.png" alt="slack" height="40px" width="125px">
-        <img style="margin-left: 10px;" src="images/Reddit Logo.png" alt="reddit" height="40px" width="125px">
-        <img style="margin-left: 10px;" src="images/Twitter Logo.png" alt="twitter" height="40px" width="125px">
-        <img style="margin-left: 10px;" src="images/Youtube Logo.png" alt="youtube" height="40px" width="125px">
-        <img style="margin-left: 10px;" src="images/Youtube Logo.png" alt="youtube" height="40px" width="125px">
-        <img style="margin-left: 10px;" src="images/Pinterest Logo.png" alt="paint"height="40px" width="125px">
-        <img style="margin-left: 10px;" src="images/Dribbble Logo.png" alt="dribble"height="40px" width="125px">
-        <img style="margin-left: 10px;" src="images/Google Logo.png" alt="google"height="40px" width="125px">
+        <img style="margin-left: 10px;" src="images/Slack Logo.png" alt="slack" height="50px" width="140px">
+        <img style="margin-left: 10px;" src="images/Reddit Logo.png" alt="reddit" height="50px" width="140px">
+        <img style="margin-left: 10px;" src="images/Twitter Logo.png" alt="twitter" height="50px" width="140px">
+        <img style="margin-left: 10px;" src="images/Youtube Logo.png" alt="youtube" height="50px" width="140px">
+        <img style="margin-left: 10px;" src="images/Youtube Logo.png" alt="youtube" height="50px" width="140px">
+        <img style="margin-left: 10px;" src="images/Pinterest Logo.png" alt="paint"height="50px" width="140px">
+        <img style="margin-left: 10px;" src="images/Dribbble Logo.png" alt="dribble"height="50px" width="140px">
+        <img style="margin-left: 10px;" src="images/Google Logo.png" alt="google"height="50px" width="14px">
     </div>
     <section class="section">
       <div class="bg-img has-background-grey-lighter" style="background-image: url(images/Phone\ .png); height:500px; max-width:100%;  background-position: center;
-      background-repeat: no-repeat; background-size: cover; border-radius: 10px; display: block; margin-left: 60px;">
+      background-repeat: no-repeat; background-size: cover; border-radius: 10px; display: block; margin-left: 60px; @media only screen and (max-width: 600px){
+        .bg-img{
+          display: block; 
+          max-width: 100%;
+          height: auto;
+        }
+      }">
         <div class="columns">
           <div class="column is-6">
             <div class="section">
