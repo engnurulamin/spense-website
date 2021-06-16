@@ -27,46 +27,48 @@ body{
 /* navbar starts here */
 .navbar{
     background-color: rgba(240, 233, 233, 0.884);
-    height: 100px;
+    display: flex;
+    padding:20px;
+    color: black;
 }
-.first-nav{
-    text-align: center;
-    padding: 20px;
-}
-.first-nav a{
+a{
     text-decoration: none;
     font-size: 1.5rem;
     color: black;
 }
-
-.mid-nav{
-    text-align: center;
-    padding: 20px;
+.navbar-brand{
+    flex: 1;
+    justify-content: flex-start;
 }
-.mid-nav a{
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: black;
+.navbar-menu{
+   flex: 2;
+   text-align: center;
+   /* justify-content: center; */
+}
+.navbar-menu a{
     margin-left: 20px;
-}
 
-.login{
-    text-align: center;
-    padding: 20px;
 }
-#log{
-    font-size: 1rem;
-    border: none;
+.navbar-buttons{
+  flex: 1;
+  justify-content: flex-end;
+  text-align: right;
+  
 }
-#get{
-    background-color: black;
-    color: blanchedalmond;
-    padding: 15px;
-    margin-left: 10px;
+.btn-1{
     border: none;
-    border-radius: 5px;
     font-size: 1.2rem;
 }
+.btn-2{
+    background-color: black;
+    padding: 15px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+
 .navbar::after{
     content: '';
     display: table;
@@ -78,12 +80,16 @@ body{
     background-color: rgba(240, 233, 233, 0.884); 
     width: auto;
     height: 600px;
+    display: flex;
+}
+#left-div{
+    flex: 2;
 }
 
 
 .heading-2{
     font-size: 4rem;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 80px;
     text-align: left;
 }
@@ -136,6 +142,7 @@ body{
     width: auto;
     margin-right: 10px;
     margin-left: 0;
+    flex:1
 }
 .section-one::after{
     content: '';
@@ -163,18 +170,7 @@ img{
 /* section two ends here */
 /* section three starts here */
 
-.banner-2{
-    background-image: url(images/Phone\ .png);
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    margin-left: 100px;
-    height: 400px;
-    width: auto;
-    margin-right: 20px;
-    background-color:rgba(240, 233, 233, 0.884);
-    border-radius: 10px;
-}
+
 
 .bg-heading{
     margin-top: 20px;
@@ -248,6 +244,21 @@ img{
     margin-top: 10px;
     text-align: left;
     padding: 10px;
+    display: flex;
+}
+#footer-div{
+    flex: 2;
+}
+.div-1{
+    flex: 1;
+}
+.div-2{
+    flex: 1;
+}
+.div-3{
+    flex: 1;
+}.div-4{
+    flex: 1;
 }
 .f-header{
     margin-left: 80px;
@@ -264,7 +275,7 @@ ul li{
     padding: 5px;
 }
 ul li a{
-    color:cornsilk;
+    color:gainsboro;
     text-decoration: none;
     padding-top: 10px;
     font-size: 1.2rem;
@@ -272,21 +283,52 @@ ul li a{
 
 
 /* Footer starts here */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+@media only screen and (max-width: 600px) {
+    .navbar{
+        display: block;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .navbar-menu{
+        margin-top: 5px;
+    }
+    .navbar-buttons{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .btn-2{
+        padding: 10px;
+        font-size: 1rem;
+        background-color:rgba(240, 233, 233, 0.884);
+        border: none;
+        color: black;
+        font-size: 1.2rem;
+    }
+    .section-one{
+        display: flex;
 
-[class*="col-"] {
-    float: left;
-    padding: 10px;
-}
+    }
+    .banner{
+        height: 500px;
+        width: 100%;
+    }
+    .social-icon{
+        display: inline;
+    }
+    .social-icon img{
+        height: 40px;
+        width: 80px;
+        margin-left:5px ;
+    }
+    .visul{
+        display: none;
+    }
+    .footer{
+        display: block;
+        height: auto;
+        flex-wrap: wrap;   
+    }
+
+  }
+
 
