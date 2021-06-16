@@ -225,11 +225,7 @@ img{
     flex: 1;
 }
 .bg-image{
-    background-image: url(images/Editor.png);
     width: auto;
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size:cover;
     margin-left: 100px;
     height: 400px;
     margin-left: 80px;
@@ -275,16 +271,18 @@ img{
     flex: 2;
 }
 .div-1{
-    flex: 1;
+    flex:1;
 }
 .div-2{
-    flex: 1;
+    flex:1;
 }
 .div-3{
-    flex: 1;
-}.div-4{
-    flex: 1;
+    flex:1;
 }
+.div-4{
+    flex:1;
+}
+
 .f-header{
     margin-left: 80px;
     font-size: 1.4rem;
@@ -452,6 +450,7 @@ ul li a{
     }
 
     /* section three ends here */
+    /* section four starts here */
     .section-four{
         display: flex;
         flex-direction: column;
@@ -495,7 +494,17 @@ ul li a{
         margin: 10px;
         padding: 10px;
     }
-
+    /* section-four ends here */
+    .footer{
+        text-align: center;
+    }
+    .f-header{
+        text-align: center;
+        margin-left: 5px;
+    }
+    .last-head{
+        text-align: center;
+    }
   }
 
 
