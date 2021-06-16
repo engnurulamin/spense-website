@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Spense Website</title>
@@ -26,30 +26,24 @@
   <!-- header ends here -->
 
   <!-- navbar starts here -->
-<div class="navbar">
-  <div class="col-3">
-    <div class="first-nav">
-      <a href="#">Spense.</a>
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a href="#">Spense</a>
     </div>
-  </div>
-  <div class="col-6">
-    <div class="mid-nav">
+    <div class="navbar-menu">
       <a href="#">Business</a>
-      <a href="#">Prising</a>
+      <a href="#">Pricing</a>
       <a href="#">Features</a>
     </div>
-  </div>
-  <div class="col-3">
-    <div class="login">
-      <button id="log">Login</button>
-      <button id="get">Get Started</button>
+    <div class="navbar-buttons">
+      <button class="btn-1">Login</button>
+      <button class="btn-2">Get Started</button>
     </div>
-  </div>
-</div>
+  </nav>
   <!-- navbar ends here -->
   <main id="main-section">
     <section class="section-one">
-      <div id="left-div" class="col-8">
+      <div id="left-div">
         <h2 class="heading-2">Share your unfiltered thoughts. Get paid.</h2>
         <p class="para">Spense is an open platform for invidulas to share their unfiltered thoughts. discuss the topics you love,
           and get paid for doing <em> just </em> that.
@@ -66,10 +60,10 @@
           <input id="input-2" type="button" value="Get Started">
         </div>
       </div>
-      <div class="col-4">
+     
         <div class="banner">
           <img id="banner" src="images/picture1.png" alt="background">
-        </div>
+       
       </div>
     </section>
     <section id="section-two">
@@ -77,22 +71,23 @@
         <img src="images/Facebook Logo.png" alt="fb-logo">
         <img src="images/Slack Logo.png" alt="slack">
         <img src="images/Reddit Logo.png" alt="reddit">
-        <img src="images/Twitter Logo.png" alt="twitter">
-        <img src="images/Youtube Logo.png" alt="youtube">
-        <img src="images/Pinterest Logo.png" alt="paint">
-        <img src="images/Dribbble Logo.png" alt="dribble">
-        <img src="images/Google Logo.png" alt="google">
+        <img src="images/Twitter Logo.png" alt="twitter" class="visul">
+        <img src="images/Youtube Logo.png" alt="youtube" class="visul">
+        <img src="images/Pinterest Logo.png" alt="paint" class="visul">
+        <img src="images/Dribbble Logo.png" alt="dribble" class="visul">
+        <img src="images/Google Logo.png" alt="google" class="visul">
        </div>
     </section>
     <section class="sectiom-three">
       <div class="banner-2">
-        <div class="col-6">
           <h3 class="heading-3">Secure your money with Escrow.</h3>
         <p class="para-2">Spense uses Escrow to secure all payments. We bwlive Escrow 
           efforts the heighest level of security for your payments,
         so you never need to worry about scams.</p>
         <button id="my-btn"><u>Learn More About Escrow <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </u></button>
-        </div>
+      </div>
+      <div class="empty">
+        
       </div>
     </section>
     <section>
@@ -114,19 +109,19 @@
     </section>
   </main>
   <footer class="footer">
-    <div id="footer-div" class="col-4">
+    <div id="footer-div">
       <h2 class="f-header">Spense.</h2>
       <p class="para">Spense is an open platform for invidulas to share their unfiltered thoughts. discuss the topics you love,
         and get paid for doing <em> just </em> that.
       </p>
     </div>
-    <div class="col-2">
+    <div class="div-1">
       <h3 class="last-head"> Sitemap</h3>
         <ul>
           <li><a href="">Homepage</a></li>
         </ul>
     </div>
-    <div class="col-2">
+    <div class="div-2">
       <h3 class="last-head">Resources</h3>
       <ul>
         <li><a href="#">Support</a></li>
@@ -134,7 +129,7 @@
         <li><a href="#">FAQ</a></li>
       </ul>
     </div>
-    <div class="col-2">
+    <div class="div-3">
       <h3 class="last-head">Company</h3>
       <ul>
         <li><a href="#">About</a></li>
@@ -142,7 +137,7 @@
         <li><a href="#">Blog</a></li>
       </ul>
     </div>
-    <div class="col-2">
+    <div class="div-4">
       <h3 class="last-head">Oppotunities</h3>
       <ul>
         <li> <a href="#">Job</a></li>
