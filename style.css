@@ -170,47 +170,45 @@ img{
 /* section two ends here */
 /* section three starts here */
 .section-three{
+    background-color:rgba(240, 233, 233, 0.884);
+    height: 400px;
     display: flex;
-    background-color: rgba(240, 233, 233, 0.884);
-    height: 450px;
-}
-.banner-2{
-    flex:1;
-
-}
-.empty{
-    flex:1
-}
-
-
-.bg-heading{
+    margin-left: 50px;
     margin-top: 20px;
-    margin-left: 20px;
-    padding: 30px;
-    font-size: 3.5rem;
-    text-align: left;
+    border-radius: 10px;
+}
+.lorem{
+    flex: 1;
+    padding-left: 50px;
+    padding-top: 90px;
+}
+.heading-3{
+    font-size: 3rem;
+    font-weight: bold;
 }
 .para-2{
-    margin-top: 20px;
-    margin-left: 10px;
-    padding-left: 30px;
-    text-align: left;
+    line-height: 1.5;
     opacity: 0.8;
+    color: black;
+    margin-top: 20px;
     font-size: 1.2rem;
-    line-height: 1.6;
+
+}
+#my-btn{
+    margin-top:40px;
+    border: none;
+    background-color:rgba(240, 233, 233, 0.884) ;
+}
+.ipsum{
+    flex: 1;
+}
+.img-section{
+    height: 300px;
+    width: 100%;
 }
 
-#my-btn{
-    margin-top: 30px;
-    margin-left: 10px;
-    padding-left: 30px;
-    border: none;
-    color:rgba(5, 2, 2, 0.938);
-    font-size: 1rem;
-    font-weight: bold;
-    opacity: 0.9;
-}
-.banner-2::after{
+
+.section-three::after{
     content: '';
     display: table;
     clear: both;
@@ -237,16 +235,23 @@ img{
     margin-left: 80px;
     margin-top: 20px;
 }
-#my-btn-1{
-    margin-top: 30px;
-    margin-left: 10px;
-    padding-left: 30px;
-    border: none;
-    color:rgba(5, 2, 2, 0.938);
-    font-size: 1rem;
+.heading-4{
+    font-size: 3rem;
     font-weight: bold;
-    opacity: 0.9;
-    background-color: white;
+    padding-top: 40px; 
+}
+.para-3{
+    line-height: 1.5;
+    opacity: 0.8;
+    color: black;
+    margin-top: 30px;
+    font-size: 1.2rem; 
+}
+
+#my-btn-1{
+    margin-top:40px;
+    border: none;
+    background-color:white ;
 }
 .section-four::after{
     content: '';
@@ -324,29 +329,171 @@ ul li a{
         color: black;
         font-size: 1.2rem;
     }
+    /* navbar ends hrer */
+    /* section one starts here */
     .section-one{
         display: flex;
+        flex-direction: column;
+        height: auto;
 
+    }
+    #left-div{
+        height: auto;
+        flex: 1;
+        order: 2;
+    }
+    .heading-2{
+        font-size: 2rem;
+        margin: 10px;
+        padding: 10px;
+        text-align: left;
+    }
+    .para{
+        margin:10;
+        text-align: left;
+        font-size: 1rem;
+        opacity: 0.8;
+    }
+    
+    .list-items{
+        margin:10px;
+    }
+    .list-items ul li{
+        list-style: url(images/Checkmark.svg);
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: rgba(5, 2, 2, 0.74);
+        margin: 10px;
+        list-style-position:inside;
+    }
+    .button{
+        margin: 20px;
+    }
+    
+    #input-1{
+        padding: 20px;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gray;
+        font-size: 1.1rem;
+        width: 200px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    
+    #input-2{
+        margin-top: 5px;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        width: 200px;
+        font-size: 1.1rem;
     }
     .banner{
         height: 500px;
-        width: 100%;
+        width: 250px;
+        flex: 1;
+        order: 1;
     }
+    /* section one ends here */
+    /* section two starts here */
     .social-icon{
         display: inline;
     }
     .social-icon img{
         height: 40px;
         width: 80px;
-        margin-left:5px ;
+        margin-left:0px;
+
     }
     .visul{
         display: none;
     }
+    /* section two ends here */
+    /* section three starts here */
+    .section-three{
+        display:flex ;
+        flex-direction: column;
+        text-align: center;
+        background-color:rgba(240, 233, 233, 0.884);
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .lorem{
+        flex: 1;
+        order:2;
+    }
+    .heading-3{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .para-2{
+        line-height: 1.2;
+        opacity: 0.8;
+        color: black;
+        margin: 10px;
+        padding: 10px;
+        font-size: 1.2rem;
+    
+    }
+    #my-btn{
+        margin:10px;
+        border: none;
+        background-color:rgba(240, 233, 233, 0.884) ;
+    }
+    .ipsum{
+        flex: 1;
+        order:1;
+        width: 100%;
+        height: auto;
+    }
+
+    /* section three ends here */
+    .section-four{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+        height: auto;
+        width: 100%;
+    }
+    .bg-image{
+        flex: 1;
+        order:1;
+        margin-left: 10px;
+        height: 400px;
+        width: 100%;
+
+    }
+    .section-4-div{
+        flex: 1;
+        order:2;
+        padding: 10px;
+        margin: 10px;
+    }
+    .bg-heading{
+        font-size: 2rem;
+        margin: 10px;
+        padding: 10px;
+    }
+    
     .footer{
         display: block;
         height: auto;
         flex-wrap: wrap;   
+    }
+    .f-header{
+        text-align: left;
+        margin: 10px;
+        padding: 10px;
+    }
+    .para{
+        text-align: left;
+        margin: 10px;
+        padding: 10px;
     }
 
   }
