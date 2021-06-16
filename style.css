@@ -169,7 +169,18 @@ img{
 }
 /* section two ends here */
 /* section three starts here */
+.section-three{
+    display: flex;
+    background-color: rgba(240, 233, 233, 0.884);
+    height: 450px;
+}
+.banner-2{
+    flex:1;
 
+}
+.empty{
+    flex:1
+}
 
 
 .bg-heading{
@@ -206,6 +217,15 @@ img{
 }
 /* section three ends here */
 /* section four starts here */
+.section-four{
+    display: flex;
+}
+.bg-image{
+    flex: 1;
+}
+.section-4-div{
+    flex: 1;
+}
 .bg-image{
     background-image: url(images/Editor.png);
     width: auto;
