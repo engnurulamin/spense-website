@@ -272,17 +272,25 @@ img{
 }
 .div-1{
     flex:1;
+    display: flex;
 }
 .div-2{
     flex:1;
-}
-.div-3{
-    flex:1;
-}
-.div-4{
-    flex:1;
+    display: flex;
 }
 
+.unorder-1{
+    margin-left: 40px;
+}
+.unorder-2{
+    margin-left: 100px;
+}
+.unorder-3{
+    margin-left: 40px;
+}
+.unorder-4{
+    margin-left: 100px;
+}
 .f-header{
     margin-left: 80px;
     font-size: 1.4rem;
@@ -493,6 +501,8 @@ ul li a{
         text-align: left;
         margin: 10px;
         padding: 10px;
+        line-height: 1.6;
+        font-size: 1.2rem;
     }
     /* section-four ends here */
     .footer{
